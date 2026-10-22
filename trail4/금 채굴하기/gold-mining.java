@@ -14,7 +14,7 @@ public class Main {
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                for (int k = 0; k <= 2 * (n - 1); k++) {
+                for (int k = 0; k <= n; k++) {
                     int score = 0;
 
                     // 중심에서 위아래로 d만큼 떨어진 행
